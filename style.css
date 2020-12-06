@@ -1,0 +1,188 @@
+/* ----- INFORMATIONS-------
+
+body {
+	background: rgb(230,230,230);
+	color: rgb(50,50,50);
+	font-family: Helvetica;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 100;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+p {
+	text-align: justify;
+}
+
+Classic Div design : 
+background: white ;
+padding: 30px ; 
+border-radius : 4 px ; 
+box-shadow: 0 15px 35px rgba(50,50,93,.1);
+
+Fix the width 
+width : 300px; 
+margin: 0 auto; (auto c'est pour center entre gauche et droite) 
+
+
+Pour les div 
+width: 700Px 
+margin: 10px auto;
+
+
+p {                  Least specific 
+  color: black;
+}
+.text-red {          More specific 
+  color: red;
+}
+#bio {              Even more specific  
+  color: green;
+}
+
+*/
+
+
+/* Colors and fonts */ 
+
+body {
+	background: #F6F7F8;
+	color: #002453;
+	font-family: 'Bitter', serif;
+	font-size: 16px;
+	font-weight: 450;
+}
+
+h1, h2, h3, a {
+	font-family: 'Montserrat', sans serif;
+}
+
+h1 {
+	color: RGB(103, 214, 215);
+	font-size: 32px;
+	font-weight: 700;
+}
+
+h2 {
+	color: #D7AB67;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+h3 {
+	color: #9E9E9E;
+	font-weight: 500;
+	padding-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #9AD3BC;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #67D6D7;
+}
+
+
+
+
+/* Custom designs with class */ 
+
+.contact {
+	color: #002453;
+	font-family: 'Bitter', serif;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.container {
+	width: 800px; 
+	margin: 40px auto;
+}
+
+@media (max-width: 800px) {
+	.container {
+		width: 600px; 
+		margin: 20px auto;
+
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: auto; 
+		margin: 20px auto;
+	}
+}
+
+.card-white {
+	background-color: white; 
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.img-circle {
+	width: 240px;
+	border-radius: 40%;
+}
+
+.btn-navy {
+	background-color: #002453;
+	color: white;
+	padding: 15px 20px;
+	font-weight: 600;
+	border-radius: 4px;
+	font-size: 13px;
+}
+
+.btn-navy:hover {
+	background-color: #002453;
+	color: white;
+	padding: 15px 20px;
+	font-weight: 700;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding-left: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
